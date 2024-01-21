@@ -1,7 +1,8 @@
-### Dimoco The Mind store Markup project ###
+### MindPlus - [PL Plus] Markup project for Dimoco ###
 
 Markup project created by figma design.
 
+Figma link [url](https://www.figma.com/file/IEB7Jrddxwt8MwvwV9IBuH/Poland-Plus---Dimoco-(Mind%2B%26Bitegames)?type=design&node-id=0-1&mode=design&t=Hyh9WNS3iCFS2nio-0 "Figma link")
 
 Demo 3g link [url](https://pw-int.github.io/mindp-pol-plus/ "Demo 3g link")
 
