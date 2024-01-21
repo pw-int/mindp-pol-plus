@@ -11971,7 +11971,7 @@ textarea.form-control-lg {
 }
 
 body {
-  --bs-body-bg: #DADADA;
+  --bs-body-bg: #E1E1E1;
   --bs-body-color: #121212;
   margin: 0;
   padding: 0;
@@ -12050,30 +12050,6 @@ p {
 @media (min-width: 576px) {
   .main .banner .banner-bg {
     object-fit: contain;
-  }
-}
-.main .banner .banner-shadow {
-  width: 100%;
-  height: 5.25rem;
-  position: absolute;
-  bottom: 0;
-  background: linear-gradient(-180deg, rgba(201, 201, 201, 0) 0%, rgb(218, 218, 218) 100%);
-}
-.main .banner .banner-shadow .banner-text {
-  position: absolute;
-  bottom: -1.5rem;
-  left: 0;
-  right: 0;
-}
-.main .banner .banner-shadow .banner-pin {
-  position: absolute;
-  bottom: -2rem;
-}
-@media (min-width: 576px) {
-  .main .banner .banner-shadow .banner-pin {
-    right: 0;
-    left: 0;
-    text-align: center;
   }
 }
 .main .banner .banner-check-icon {
