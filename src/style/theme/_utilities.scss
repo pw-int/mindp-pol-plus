@@ -1,0 +1,25 @@
+body {
+    --bs-body-bg: #{$gray-218};
+    --bs-body-color: #{$black};
+    margin: 0;
+    padding: 0;
+    font-family: " Inter", sans-serif;
+}
+
+a {
+    text-decoration: underline;
+    cursor: pointer;
+    color: $green;
+}
+
+.text-dark {
+    color: $black!important;
+}
+
+textarea {
+    resize: none;
+}
+
+.mw-64 {
+    min-width: 4rem;
+}

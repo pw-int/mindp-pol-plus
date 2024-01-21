@@ -1,0 +1,114 @@
+@import 'theme/theme';
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    .navbar {
+        .navbar-nav {
+            position: relative;
+            z-index: 1;
+        }
+        .navbar-brand-img {
+            width: 4.625rem;
+        }
+        .navbar-brand-img-sm {
+            width: 3.25rem;
+        }
+    }
+    .banner {
+        position: relative;
+        height: 95vw;
+        @media (min-width: 576px) {
+            height: 87vw;
+        }
+        @media (min-width: 768px) {
+            height: 680px;
+        }
+        @media (min-width: 992px) {
+            height: 480px;
+        }
+        @media (min-width: 1200px) {
+            height: 580px;
+        }
+        .banner-bg {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            object-fit: cover;
+            @media (min-width: 576px) {
+                object-fit: contain;
+            }
+        }
+        .banner-shadow {
+            width: 100%;
+            height: 5.25rem;
+            position: absolute;
+            bottom: 0;
+            background: linear-gradient(180deg, rgba(201, 201, 201, 0) 0%, rgba(218, 218, 218, 1) 100%);
+            .banner-text {
+                position: absolute;
+                bottom: -1.5rem;
+                right: 0;
+                left: 0;
+            }
+            .banner-pin {
+                position: absolute;
+                bottom: -2rem;
+                @media (min-width: 576px) {
+                    left: 0;
+                    right: 0;
+                    text-align: center;
+                }
+            }
+        }
+        .banner-check-icon {
+            margin-top: auto;
+        }
+    }
+    .divider {
+        margin: 4px 0;
+        width: 100%;
+        height: 4px;
+        background: linear-gradient(90deg, rgba(174, 211, 0, 0) 0, $green 50.8%, rgba(174, 211, 0, 0) 100%);
+        opacity: .9;
+    }
+    .icon-style {
+        background-color: $white;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .footer {
+        margin-top: auto;
+        .list-inline {
+            display: flex;
+            justify-content: center;
+            padding-left: 0;
+            .list-inline-item {
+                list-style-type: none;
+                padding: 0 .625rem;
+                border-right: 1px solid $black;
+                .btn-link {
+                    font-weight: 500;
+                    font-size: .75rem;
+                    color: $black;
+                    &:hover {
+                        color: $green;
+                    }
+                    @media (max-width: 375px) {
+                        font-size: .688rem;
+                    }
+                }
+                @media (max-width: 375px) {
+                    padding: 0 .25rem;
+                }
+            }
+            .list-inline-item:last-child {
+                border-right: none;
+            }
+            .list-inline-item.border-right:last-child {
+                border-right: 1px solid $black;
+            }
+        }
+    }
+}
