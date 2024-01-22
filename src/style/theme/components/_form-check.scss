@@ -24,3 +24,8 @@
 .form-check-input:checked {
     background-color: $white;
 }
+
+.form-check-input.is-valid~.form-check-label,
+.was-validated .form-check-input:valid~.form-check-label {
+    --bs-form-valid-color: #{$black};
+}
