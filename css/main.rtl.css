@@ -2127,7 +2127,7 @@ progress {
   width: 100%;
   padding: 0.75rem 1rem;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.25;
   color: #3E4E4A;
   appearance: none;
@@ -2277,7 +2277,7 @@ textarea.form-control-lg {
   width: 100%;
   padding: 0.75rem 1rem 0.75rem 3rem;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.25;
   color: #3E4E4A;
   appearance: none;
@@ -2666,7 +2666,7 @@ textarea.form-control-lg {
   align-items: center;
   padding: 0.75rem 1rem;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.25;
   color: #FFFFFF;
   text-align: center;
@@ -2909,7 +2909,7 @@ textarea.form-control-lg {
   --bs-btn-padding-y: 0.72rem;
   --bs-btn-font-family: ;
   --bs-btn-font-size: 1rem;
-  --bs-btn-font-weight: bold;
+  --bs-btn-font-weight: 500;
   --bs-btn-line-height: 1.5;
   --bs-btn-color: #FFFFFF;
   --bs-btn-bg: transparent;
@@ -11872,8 +11872,11 @@ textarea.form-control-lg {
   --bs-btn-hover-color: #00B262;
 }
 
+.form-control {
+  box-shadow: 0px 0.81px 0.81px 0px rgba(0, 0, 0, 0.25);
+}
 .form-control::placeholder {
-  font-weight: 400;
+  font-weight: 500;
   font-style: italic;
   font-size: 1rem;
   color: #3E4E4A;
