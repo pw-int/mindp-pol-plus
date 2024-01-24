@@ -2917,7 +2917,7 @@ textarea.form-control-lg {
   --bs-btn-padding-y: 0.72rem;
   --bs-btn-font-family: ;
   --bs-btn-font-size: 1rem;
-  --bs-btn-font-weight: 500;
+  --bs-btn-font-weight: bold;
   --bs-btn-line-height: 1.5;
   --bs-btn-color: #FFFFFF;
   --bs-btn-bg: transparent;
